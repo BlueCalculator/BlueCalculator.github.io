@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    background-color: #0096FF;
+    
+}
+
+
+.clicky #text {
+    padding: 10px;
+    font-size: 80px;
+    font-family: Nabla;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+button:active {
+    transform: scale(.94);
+}
+
+.clicky {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
