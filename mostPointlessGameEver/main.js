@@ -8,7 +8,7 @@ function numbers(){
     i++;
     document.getElementById("text").innerHTML = i;
 
-    if(i >= 10){
+    if(i >= 5){
         window.open('https://www.google.com/', '_self');
     }
 }
